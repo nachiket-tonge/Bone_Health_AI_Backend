@@ -1,3 +1,4 @@
+
 package com.BoneHealthAI.Backend.entity;
 
 import jakarta.persistence.*;
@@ -28,6 +29,8 @@ public class User {
     private Role role;
 
     public enum Role {
-        PATIENT, DOCTOR
+        PATIENT,
+        DOCTOR,
+        CLINIC_ADMIN
     }
 }
